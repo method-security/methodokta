@@ -7,7 +7,7 @@ toolchain go1.22.5
 require (
 	github.com/Method-Security/pkg v0.0.3
 	github.com/google/uuid v1.6.0
-	github.com/okta/okta-sdk-golang/v5 v5.0.1
+	github.com/okta/okta-sdk-golang/v5 v5.0.4
 	github.com/palantir/pkg/datetime v1.1.0
 	github.com/palantir/witchcraft-go-logging v1.57.0
 	github.com/spf13/cobra v1.8.0
