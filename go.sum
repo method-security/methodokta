@@ -154,8 +154,8 @@ github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWE
 github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
 github.com/nmiyake/pkg/dirs v1.0.0 h1:pYeIw1wH7jh5/ew8naGE4Q56byJG7Uyi8PwwhVe/MTg=
 github.com/nmiyake/pkg/dirs v1.0.0/go.mod h1:r6/PkZ3CA1szGfQkxcHheEjBWi6Zu6jLb+lQmRXEyvM=
-github.com/okta/okta-sdk-golang/v5 v5.0.1 h1:mwFb5udwexoh105EIE6YhgacLIGOFujhNgQ2fhuBsfQ=
-github.com/okta/okta-sdk-golang/v5 v5.0.1/go.mod h1:T/vmECtJX33YPZSVD+sorebd8LLhe38Bi/VrFTjgVX0=
+github.com/okta/okta-sdk-golang/v5 v5.0.4 h1:HDq1L+3vECjTZRPmsRYxgeWOGRuaxk1+tdRkdscAeLQ=
+github.com/okta/okta-sdk-golang/v5 v5.0.4/go.mod h1:T/vmECtJX33YPZSVD+sorebd8LLhe38Bi/VrFTjgVX0=
 github.com/openzipkin/zipkin-go v0.2.2 h1:nY8Hti+WKaP0cRsSeQ026wU03QsM762XBeCXBb9NAWI=
 github.com/openzipkin/zipkin-go v0.2.2/go.mod h1:NaW6tEwdmWMaCDZzg8sh+IBNOxHMPnhQw8ySjnjRyN4=
 github.com/palantir/pkg v1.1.0 h1:0EhrSUP8oeeh3MUvk7V/UU7WmsN1UiJNTvNj0sN9Cpo=
