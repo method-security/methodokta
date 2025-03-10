@@ -1,17 +1,16 @@
 module github.com/method-security/methodokta
 
 go 1.22.0
-
-toolchain go1.22.5
+toolchain go1.24.1
 
 require (
 	github.com/Method-Security/pkg v0.0.3
 	github.com/google/uuid v1.6.0
 	github.com/okta/okta-sdk-golang/v5 v5.0.4
 	github.com/palantir/pkg/datetime v1.1.0
-	github.com/palantir/witchcraft-go-logging v1.57.0
+	github.com/palantir/witchcraft-go-logging v1.59.0
 	github.com/spf13/cobra v1.9.1
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 )
 
 require (
@@ -46,9 +45,9 @@ require (
 	github.com/palantir/pkg/safelong v1.1.0 // indirect
 	github.com/palantir/pkg/safeyaml v1.1.0 // indirect
 	github.com/palantir/pkg/transform v1.1.0 // indirect
-	github.com/palantir/witchcraft-go-error v1.38.0 // indirect
-	github.com/palantir/witchcraft-go-params v1.35.0 // indirect
-	github.com/palantir/witchcraft-go-tracing v1.37.0 // indirect
+	github.com/palantir/witchcraft-go-error v1.40.0 // indirect
+	github.com/palantir/witchcraft-go-params v1.37.0 // indirect
+	github.com/palantir/witchcraft-go-tracing v1.39.0 // indirect
 	github.com/patrickmn/go-cache v0.0.0-20180815053127-5633e0862627 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
