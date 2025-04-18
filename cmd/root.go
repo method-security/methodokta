@@ -26,6 +26,7 @@ type MethodOkta struct {
 }
 
 func NewMethodOkta(version string) *MethodOkta {
+	startedAt := datetime.DateTime(time.Now())
 	methodOkta := MethodOkta{
 		version: version,
 		RootFlags: config.RootFlags{
@@ -39,7 +40,7 @@ func NewMethodOkta(version string) *MethodOkta {
 		},
 		RequestSleep: 10 * time.Second,
 		OutputConfig: writer.NewOutputConfig(nil, writer.NewFormat(writer.SIGNAL)),
-		OutputSignal: signal.NewSignal(nil, datetime.DateTime(time.Now()), nil, 0, nil),
+		OutputSignal: signal.NewSignal(nil, &startedAt, nil, 0, nil),
 	}
 	return &methodOkta
 }
@@ -84,7 +85,7 @@ func (a *MethodOkta) InitRootCommand() {
 			return writer.Write(
 				a.OutputSignal.Content,
 				a.OutputConfig,
-				a.OutputSignal.StartedAt,
+				&a.OutputSignal.StartedAt,
 				a.OutputSignal.CompletedAt,
 				a.OutputSignal.Status,
 				a.OutputSignal.ErrorMessage,
