@@ -1,5 +1,5 @@
-# github.com/Method-Security/pkg v0.0.3
-## explicit; go 1.22
+# github.com/Method-Security/pkg v0.0.6
+## explicit; go 1.24
 github.com/Method-Security/pkg/signal
 github.com/Method-Security/pkg/writer
 # github.com/cenkalti/backoff/v4 v4.1.3
