@@ -40,3 +40,7 @@ ca.crt
 
 # Fern
 /generated/**
+
+# For Release
+/artifacts/**
+/output/**
